@@ -1,0 +1,24 @@
+.menu{
+    width:600px;
+    display:inline-flex;
+    justify-content: space-around;
+}
+.link{
+    color:white;
+    font-size:16px;
+    text-decoration:none;
+    font-weight: 400;
+    cursor:pointer;
+    &:hover{
+        text-decoration:underline;
+    }
+}
+
+@media (max-width: 1200px){
+  .menu{
+    width: 90vw;
+  }
+  .link{
+    font-size:3vw;
+  }
+}
