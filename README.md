@@ -11,7 +11,7 @@ Simple landing page as application with React
 
 #Run
 
-1. Start webpackDevServer: npm run start
+1. Start app: npm run start
 2. View in browser at http://localhost:31337
 
 
